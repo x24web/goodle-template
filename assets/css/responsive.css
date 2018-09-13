@@ -1,0 +1,465 @@
+
+@media(max-width:786px){ 
+    
+    /*=================================
+    Start Header   
+    =================================*/
+    
+    .header .navbar a.navbar-brand {
+        padding: 0px 0px 0px 10px;
+    }
+    
+    .header .slider .slider-content h1 {
+        font-size: 50px; 
+    }
+    
+    .header .slider .buttons-intro a:nth-child(2) {
+        left: 40px;
+    }
+    
+    /*=================================
+    End Header    
+    =================================*/
+    
+    
+    /*=================================
+    Start Features
+    =================================*/
+    
+    .features .overlay-features .image-iphone img {
+        width: 246px;
+    }
+    
+    /*=================================
+    End Features
+    =================================*/
+
+}
+
+
+@media(max-width:590px){ 
+    
+    /*=================================
+    Start Header
+    =================================*/
+    
+    .header .slider .slider-content h1 {
+    font-size: 34px; 
+    }
+
+    .header .slider .buttons-intro a:nth-child(2) {
+        left: 20px;
+    }
+    
+    .header .slide-in{
+        display: none;
+    }
+    /*=================================
+    End Header 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Services  
+    =================================*/
+    
+    .services .service .icon-service,
+    .services .service .info-service{
+        float: none;
+    }
+    
+    .services .service .info-service {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    /*=================================
+    End Services 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Testimonials
+    =================================*/
+    
+    .testimonials .heading-section h2,
+    .testimonials .heading-section span {
+        font-size: 29px;
+    }
+    
+    .testimonials .heading-section span,
+    .contact .heading-section span {
+        top: -23px;
+    }
+    
+    .testimonials .heading-section:hover span,
+    .contact .heading-section:hover span {
+        top: -15px;
+    }
+    
+    
+    /*=================================
+    End Testimonials
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Contact
+    =================================*/
+    
+    .contact .subscribe .overlay-subscribe form input[type="email"],
+    .contact .subscribe .overlay-subscribe form input[type="submit"] {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
+    
+    .contact .subscribe .overlay-subscribe form input[type="email"] {
+        border-radius: 20px 0 0 0;
+    }
+    
+    .contact .subscribe .overlay-subscribe form input[type="submit"] {
+        border-radius: 0 0 20px 0;
+    }
+    
+    
+    /*=================================
+    End Contact
+    =================================*/
+
+    
+}
+
+@media(max-width: 767px){
+
+
+    /*=================================
+    Start Header 
+    =================================*/
+    
+    .header .navbar-collapse {
+        border: 0;
+        box-shadow: 0 0 0 0;
+        margin-top: 10px;
+    }
+    
+    .header .navbar-nav {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 400px;
+    }
+    
+    .header .navbar-default .navbar-nav>.active>a{
+        padding-left: 25px;
+    }
+    
+    .header .navbar-default .navbar-nav>.active>a::after{
+        display: none;
+    }
+    
+    .header .navbar-default .navbar-nav>li>a:hover {
+        color: #13b1c5;
+        padding-left: 25px;
+    }
+    
+    .header .navbar-default .navbar-nav>li>a::after {
+        display: none;
+    }
+
+
+
+    /*=================================
+    End Header 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start About
+    =================================*/
+        
+    .heading-section p {
+        width: 95%;
+    }
+    
+    .about .info-about {
+        margin-bottom: 40px;
+    }
+    
+    /*=================================
+    End About
+    =================================*/
+    
+    
+    /*=================================
+    Start Features
+    =================================*/
+    
+    .features .overlay-features .feature.feature-right .icon-feature {
+        float: none;
+    }
+    
+    .feature.feature-right {
+        text-align: left;
+    }
+    
+    .features .overlay-features .feature {
+        margin: 40px 0;
+    }
+    
+    
+    /*=================================
+    End Features
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Pricing
+    =================================*/
+    
+    
+    .pricing .price {
+        margin-bottom: 40px;
+    }
+    
+    .pricing .price:hover {
+        -webkit-transform: scale(1.02);
+        -moz-transform: scale(1.02);
+        -o-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+
+
+    /*=================================
+    End Pricing
+    =================================*/
+    
+
+    
+    
+    /*=================================
+    Start Blog
+    =================================*/
+    
+    .blog .article {
+        margin-bottom: 40px;
+    }
+    
+    /*=================================
+    End Blog
+    =================================*/
+    
+    
+    /* overlay */
+    .services .overlay-services, 
+    .features .overlay-features,
+    .team .overlay-team,
+    .testimonials .overlay-testimonials {
+        padding: 80px 0;
+    }
+    
+    .last-child {
+        margin-bottom: 0 !important;
+    }
+    
+}
+
+/* small screen */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    
+    /*=================================
+    Start Header 
+    =================================*/
+    
+    .header .navbar-header .navbar-brand img {
+        width: 130px;
+        padding-top: 10px;
+    }
+    
+    .header .navbar-default .navbar-nav a{
+        font-size: 11px;
+    }
+    .header .navbar-default .navbar-nav>li>a {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    /*=================================
+    End Header 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start About
+    =================================*/
+    
+    
+    /*=================================
+    End About
+    =================================*/
+    
+    .heading-section p {
+        width: 95%;
+    }
+    
+    .about .info-about {
+        margin-bottom: 40px;
+    }
+    
+    /*=================================
+    Start Services  
+    =================================*/
+    
+    .services .service .icon-service,
+    .services .service .info-service{
+        float: none;
+    }
+    
+    .services .service .info-service {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    /*=================================
+    End Services 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Features
+    =================================*/
+    
+    .heading-section p {
+        width: 95%;
+    }
+    
+    .about .info-about {
+        margin-bottom: 40px;
+    }
+    
+    /*=================================
+    End Features
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Pricing
+    =================================*/
+    
+    .pricing .price {
+        margin-bottom: 40px;
+    }
+
+    /*=================================
+    End Pricing
+    =================================*/
+    
+    
+    /*=================================
+    Start Blog
+    =================================*/
+    
+    .blog .article {
+        margin-bottom: 40px;
+    }
+    
+    /*=================================
+    End Blog
+    =================================*/
+    
+    .last-child {
+        margin-bottom: 0 !important;
+    }
+    
+}
+
+/* medium screen */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+   /*=================================
+    Start Header 
+    =================================*/
+    .header .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    
+    .header .navbar-default .navbar-nav>li>a {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    
+    /*=================================
+    End Header 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Services  
+    =================================*/
+    
+    .services .service .icon-service,
+    .services .service .info-service{
+        float: none;
+    }
+    
+    .services .service .info-service {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    /*=================================
+    End Services 
+    =================================*/
+    
+    
+    /*=================================
+    Start Features
+    =================================*/
+    
+    .features .overlay-features .image-iphone {
+        margin-top: 47px;
+    }
+    
+    .features .overlay-features .image-iphone img {
+        width: 300px;
+    }
+    
+    
+    /*=================================
+    End Features
+    =================================*/
+    
+    
+}
+
+/* large screen */
+
+@media(min-width: 768px){
+    
+    .header .navbar-nav{
+        float: right;
+    }
+    
+}
+
+@media(min-width:1200px)
+{
+    
+    
+}
