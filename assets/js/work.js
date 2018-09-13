@@ -195,30 +195,22 @@ $(document).ready(function () {
     End Scroll top 
     =====================================*/
     
-    
-    
     /*=====================================
     Start Loading
     =====================================*/
-
-    $(window).on('load', function () {
-            
+    
     $('.loading .sk-folding-cube').fadeOut(3500, function () {
 
         $(this).parent().fadeOut(3000);
-            
+
     // Show scrolling after loading page
 
         $('html, body').css('overflowY', 'auto'); 
-            
-        });
-    });
 
+        });
+    
     /*=====================================
     End Loading
     =====================================*/
-    
       
 });
-
-
